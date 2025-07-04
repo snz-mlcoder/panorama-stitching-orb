@@ -29,3 +29,24 @@ panorama-stitching-orb/
 └── README.md            # This file
 ```
 
+---
+
+## 🚀 How to Run
+
+1. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+
+Run the script
+
+python main.py
+
+Notes
+ORB is chosen over SIFT/SURF due to its open-source, license-free nature.
+
+You can adjust the min_match_count parameter in stitcher.py for stricter matching.
+
+
+Example Output
+<p align="center"> <img src="panorama_output.jpg" alt="Panorama Output" width="600"/> </p>
