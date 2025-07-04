@@ -18,3 +18,11 @@ We use the ORB (Oriented FAST and Rotated BRIEF) algorithm to detect and describ
 
 ## 📁 Folder Structure
 
+panorama-stitching-orb/
+├── images/
+│ ├── left.jpg # First input image
+│ └── right.jpg # Second input image
+├── main.py # Entry point to the script
+├── stitcher.py # Core stitching logic
+├── requirements.txt # Required Python packages
+└── README.md # This file
